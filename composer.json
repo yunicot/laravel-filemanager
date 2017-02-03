@@ -24,6 +24,7 @@
     {
       "name": "yunicot",
       "email": "syava05,96@gmail.com"
+    }
   ],
   "require": {
     "php": ">=5.4.0",

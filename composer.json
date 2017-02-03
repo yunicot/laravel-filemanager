@@ -1,0 +1,42 @@
+{
+  "name": "yunicot/laravel-filemanager",
+  "description": "A file upload/editor intended for use with Laravel 5 and CKEditor / TinyMCE. Work with AwS S3",
+  "license": "MIT",
+  "keywords": [
+    "filemanager",
+    "laravel",
+    "ckeditor",
+    "tinymce",
+    "upload",
+    "file",
+    "manager",
+    "image"
+  ],
+  "authors": [
+    {
+      "name": "Trevor Sawler",
+      "email": "trevor.sawler@gmail.com"
+    },
+    {
+      "name": "UniSharp Ltd.",
+      "email": "unisharp-service@unisharp.com"
+    }
+    {
+      "name": "yunicot",
+      "email": "syava05,96@gmail.com"
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "illuminate/support": ">=4.2.0",
+    "intervention/image": "2.*"
+  },
+  "suggest": {
+    "ext-gd": "to use GD library based image processing.",
+    "ext-imagick": "to use Imagick based image processing."
+  },
+  "autoload": {
+    "psr-4": {
+      "Yunicot\\Laravelfilemanager\\": "src/"
+    }
+  }
+}
